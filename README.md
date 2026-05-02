@@ -97,3 +97,6 @@ Generated results appear with strength labels.
 - Optional breach-check integration
 - Encrypted export option
 - Packaged Mac and Windows app builds
+
+## License
+MIT License
