@@ -39,10 +39,11 @@ Demo: https://khucker3d.carbonmade.com/projects/7254185#1
 - time
 
 ## Installation
-Clone the repository:
-- Run on Mac: python3 secure_password_generator_gui_safe.py
-- Run on Windows: python secure_password_generator_gui_safe.py
-  - If that does not work: python3 secure_password_generator_gui_safe.py
+1. Download secure_password_generator_gui_safe.py script to your preferred local location 
+2. Run script: 
+   - Mac: python3 secure_password_generator_gui_safe.py
+   - Windows: python secure_password_generator_gui_safe.py
+     - If that does not work: python3 secure_password_generator_gui_safe.py
 
 ### How to Use
 1. Open the app, then choose your settings:
