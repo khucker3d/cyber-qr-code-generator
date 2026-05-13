@@ -1,6 +1,10 @@
 # My Fancy Pants QR Code Generator:
 A Python desktop GUI tool for creating branded QR code cards for portfolios, resumes, GitHub pages, and project links.
 
+[Demo:](https://my.carbonmade.com/portfolio/projects/7254185)
+
+<img width="576" height="622" alt="Screenshot 2026-05-13 at 11 30 45" src="https://github.com/user-attachments/assets/308608b9-8952-4f47-bc21-b9ec641d6153"/>
+
 ## Features:
 * Generate QR code cards from custom URLs
 * Add custom labels
@@ -25,12 +29,6 @@ A Python desktop GUI tool for creating branded QR code cards for portfolios, res
 * Printed handouts
 * Website image assets
 * Important Notes
-
-## Screenshot:
-<img width="776" height="822" alt="Screenshot 2026-05-13 at 11 30 45" src="https://github.com/user-attachments/assets/308608b9-8952-4f47-bc21-b9ec641d6153" />
-
-## Demo: 
-Add Carbonmade project link here.
 
 ## Tech Stack
 * Python
