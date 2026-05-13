@@ -1,102 +1,107 @@
-# Secure Password Generator
+# My Fancy Pants QR Code Generator:
+A Python desktop GUI tool for creating branded QR code cards for portfolios, resumes, GitHub pages, and project links.
 
-A Python desktop GUI tool for generating secure passwords and readable passphrases using cryptographically secure randomness.
+## Features:
+* Generate QR code cards from custom URLs
+* Add custom labels
+* Add custom file names
+* Add custom subtext
+* Optional center logo support
+* Supports manual line breaks in labels and subtext
+* Exports QR cards as PNG files
+* User-selectable output folder
+* Scrollable Tkinter UI
+* Mac and Windows friendly
+* QR-safe high contrast design
+* Clean card layout for resumes, websites, GitHub, and portfolio use
 
-Built with Python and Tkinter.
+### Use Cases:
+* Resume QR codes
+* Portfolio QR codes
+* GitHub profile links
+* Project page links
+* Contact cards
+* Career hub links
+* Printed handouts
+* Website image assets
+* Important Notes
 
-## Features
+## Screenshot:
+<img width="776" height="822" alt="Screenshot 2026-05-13 at 11 30 45" src="https://github.com/user-attachments/assets/308608b9-8952-4f47-bc21-b9ec641d6153" />
 
-- Secure password generation using Python’s `secrets` module
-- Password length control
-- Number of passwords to generate
-- Uppercase, lowercase, number, and symbol options
-- Ambiguous character removal
-- Passphrase mode
-- Password strength estimation
-- Color-coded strength labels
-- Check your own password strength
-- Click-to-copy single password
-- Copy selected passwords
-- Copy all passwords
-- Select all and uncheck all controls
-- Clear results and clipboard
-- Clipboard auto-clear with countdown
-- CSV export for password manager import
-- Responsive Tkinter UI
-- Button hover and press feedback
-
-## Screenshot
-<img width="719" height="949" alt="Screenshot 2026-05-01 at 17 49 10" src="https://github.com/user-attachments/assets/fa8b5517-c95a-4413-91df-067e1befddfa" />
-Demo: https://khucker3d.carbonmade.com/projects/7254185#1
+## Demo: 
+Add Carbonmade project link here.
 
 ## Tech Stack
-- Python
-- Tkinter
-- secrets
-- csv
-- math
-- string
-- time
+* Python
+* Tkinter
+* qrcode
+* Pillow
+* os
+* textwrap
 
 ## Installation
-1. Download secure_password_generator_gui_safe.py script to your preferred local location 
-2. Run script: 
-   - Mac: python3 secure_password_generator_gui_safe.py
-   - Windows: python secure_password_generator_gui_safe.py
-     - If that does not work: python3 secure_password_generator_gui_safe.py
+1. Download `fancy_pants_qr_gui.py` to your preferred local location.
+2. Install required packages:
+   * Mac Terminal: `pip3 install "qrcode[pil]`
+   * Windows PowerShell: `py -m pip install "qrcode[pil]`
 
-### How to Use
-1. Open the app, then choose your settings:
-2. Set password length
-3. Set number to generate
-4. Enable character options
-5. Enable passphrase mode if desired
-6. Click Generate
+3. Run the script:
+   * Mac Terminal: `python3 fancy_pants_qr_gui.py`
+   * Windows PowerShell: `py fancy_pants_qr_gui.py`
 
-Generated results appear with strength labels.
+## How to Use
+1. Open the app
+2. Enter a label
+3. Enter a file name
+4. Enter the destination URL
+5. Enter optional subtext
+6. Select an optional logo image
+7. Choose an output folder
+8. Click Generate QR Card
+Results: The generated QR card will be saved as a PNG file.
 
-#### You can:
-- Click one result to copy it
-- Select multiple results and click Copy Selected
-- Click Copy All
-- Clear results
-- Clear clipboard manually
-- Export generated results to CSV
-- Passphrase Mode
-  - Passphrase mode generates readable passwords such as: forest-rocket-cloud-signal-A7!
-  - Enabled character options are appended to the passphrase to support websites that require uppercase letters, lowercase letters, numbers, or symbols.
-- Clipboard Safety
-  - Copied passwords start a countdown timer.
-    - After 30 seconds: 
-      - The clipboard is overwritten
-      - The clipboard is cleared
+### Tips: 
+* For resumes, a landing page with preview and download buttons is more reliable than a direct PDF link.
+* Keep QR codes high contrast for better scanning.
+* Large or complex center logos may reduce scan reliability.
 
-#### Important
-- The app cannot remove content that has already been pasted into another app.
-- Clipboard managers may also retain copied content.
-- CSV Export Warning
-  - CSV exports are plain text.
-  - After importing the CSV into a password manager, delete the CSV file.
+* Example QR Item
+   * Label: "Text A\nText B"
+   * Filename: "path\file_name"
+   * URL: "https://pathgoeshere.com"
+   * Logo: "path/image_name.png
+   * Subtext": "Text A\nText B"
 
-#### Limitations
-- Strength estimation is entropy-based
-- No breach database checking
-- No password reuse detection
-- CSV exports are not encrypted
-- Clipboard managers may retain copied values
-- Python cannot guarantee low-level secure memory wiping
+## Important: 
+* QR codes should be tested before publishing.
+* Use trusted URLs only.
+* Avoid linking directly to files if the mobile preview experience is unreliable.
 
-#### Security Notes
-- This project is intended for learning, personal security practice, and portfolio demonstration.
-- For real credential storage, use a trusted password manager.
+### Security Notes
+* QR codes hide the destination URL from the viewer until scanned.
+* Malicious QR codes can be used for phishing.
+* Public QR codes should point to trusted domains.
+* Avoid URL shorteners for professional or portfolio use.
+* Test QR codes on both desktop and mobile devices.
 
-#### Future Improvements
-- Larger Diceware-style word list
-- Dark mode polish
-- Password visibility toggle for custom checker
-- Optional breach-check integration
-- Encrypted export option
-- Packaged Mac and Windows app builds
+### Limitations
+* Does not verify whether a URL is live.
+* Does not detect malicious URLs.
+* Does not create hosted landing pages.
+* Logo placement may affect scan reliability if the logo is too large.
+* Generated files are static PNG images.
+
+### Future Improvement Ideas:
+* Multiple QR item list inside the GUI
+* Combined portfolio sheet export from GUI
+* Color picker support
+* Built-in QR scan reliability checker
+* URL validation preview
+* Drag and drop logo support
+* Save and load QR presets
+* Export PDF contact sheet
+* Packaged Mac and Windows app builds
 
 ## License
 MIT License
