@@ -38,7 +38,7 @@ A Python desktop GUI tool for creating branded QR code cards for portfolios, res
 * os
 * textwrap
 
-## Installation
+## Installation:
 1. Download `fancy_pants_qr_gui.py` to your preferred local location.
 2. Install required packages:
    * Mac Terminal: `pip3 install "qrcode[pil]`
@@ -48,7 +48,7 @@ A Python desktop GUI tool for creating branded QR code cards for portfolios, res
    * Mac Terminal: `python3 fancy_pants_qr_gui.py`
    * Windows PowerShell: `py fancy_pants_qr_gui.py`
 
-## How to Use
+## How to Use:
 1. Open the app
 2. Enter a label
 3. Enter a file name
@@ -59,31 +59,20 @@ A Python desktop GUI tool for creating branded QR code cards for portfolios, res
 8. Click Generate QR Card
 Results: The generated QR card will be saved as a PNG file.
 
-### Tips: 
-* For resumes, a landing page with preview and download buttons is more reliable than a direct PDF link.
-* Keep QR codes high contrast for better scanning.
-* Large or complex center logos may reduce scan reliability.
-
-* Example QR Item
-   * Label: "Text A\nText B"
-   * Filename: "path\file_name"
-   * URL: "https://pathgoeshere.com"
-   * Logo: "path/image_name.png
-   * Subtext": "Text A\nText B"
 
 ## Important: 
 * QR codes should be tested before publishing.
 * Use trusted URLs only.
 * Avoid linking directly to files if the mobile preview experience is unreliable.
 
-### Security Notes
+### Security Notes:
 * QR codes hide the destination URL from the viewer until scanned.
 * Malicious QR codes can be used for phishing.
 * Public QR codes should point to trusted domains.
 * Avoid URL shorteners for professional or portfolio use.
 * Test QR codes on both desktop and mobile devices.
 
-### Limitations
+### Limitations:
 * Does not verify whether a URL is live.
 * Does not detect malicious URLs.
 * Does not create hosted landing pages.
@@ -101,5 +90,5 @@ Results: The generated QR card will be saved as a PNG file.
 * Export PDF contact sheet
 * Packaged Mac and Windows app builds
 
-## License
+## License:
 MIT License
