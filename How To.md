@@ -1,5 +1,7 @@
 # QR Code Generator
 
+<img width="576" height="622" alt="Screenshot 2026-05-13 at 11 30 45" src="https://github.com/user-attachments/assets/308608b9-8952-4f47-bc21-b9ec641d6153"/>
+
 ## Installation:
 1. Download the [script:](https://github.com/khucker3d/cyber-qr-code-generator/blob/main/qr_code_genertor_v2.py)
 3. Install required packages:
