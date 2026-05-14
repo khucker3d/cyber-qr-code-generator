@@ -39,13 +39,13 @@ A Python desktop GUI tool for creating branded QR code cards for portfolios, res
 * textwrap
 
 ## Installation:
-1. Download `fancy_pants_qr_gui.py` to your preferred local location.
-2. Install required packages:
+1. Download the [script:](https://github.com/khucker3d/cyber-qr-code-generator/blob/main/qr_code_genertor_v2.py)
+3. Install required packages:
    * Mac Terminal: `pip3 install "qrcode[pil]`
    * Windows PowerShell: `py -m pip install "qrcode[pil]`
   *Note: I used IDLE to create and run the script*
 
-3. Run the script:
+4. Run the script:
    * Mac Terminal: `python3 fancy_pants_qr_gui.py`
    * Windows PowerShell: `py fancy_pants_qr_gui.py`
 
@@ -93,3 +93,7 @@ Results: The generated QR card will be saved as a PNG file.
 
 ## License:
 MIT License
+
+### Security Notes:
+* This project is intended for learning, personal security practice, and portfolio demonstration.
+* For real credential storage, use a trusted password manager.
