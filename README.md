@@ -3,7 +3,7 @@ A Python desktop GUI tool for creating branded QR code cards for portfolios, res
 
 ## [Demo:](https://khucker3d.carbonmade.com/projects/7254185#2)
 
-<img width="576" height="622" alt="Screenshot 2026-05-13 at 11 30 45" src="https://github.com/user-attachments/assets/308608b9-8952-4f47-bc21-b9ec641d6153"/>
+<img width="776" height="822" alt="ToolUI" src="https://github.com/user-attachments/assets/bbad2965-0c5f-496c-b244-1e909edcd539" />
 
 ## Features:
 * Generate QR code cards from custom URLs
