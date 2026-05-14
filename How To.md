@@ -1,6 +1,6 @@
 # QR Code Generator
 
-<img width="576" height="622" alt="Screenshot 2026-05-13 at 11 30 45" src="https://github.com/user-attachments/assets/308608b9-8952-4f47-bc21-b9ec641d6153"/>
+<img width="776" height="822" alt="ToolUI" src="https://github.com/user-attachments/assets/6db6bf4a-fa66-4ac8-96ed-4f6c25ffce26" />
 
 ## Installation:
 1. Download the [script:](https://github.com/khucker3d/cyber-qr-code-generator/blob/main/qr_code_genertor_v2.py)
@@ -10,8 +10,8 @@
   *Note: I used IDLE to create and run the script*
 
 4. Run the script:
-   * Mac Terminal: `python3 fancy_pants_qr_gui.py`
-   * Windows PowerShell: `py fancy_pants_qr_gui.py`
+   * Mac Terminal: `python3 qr_code_genertor_v2.py`
+   * Windows PowerShell: `py qr_code_genertor_v2.py`
 
 ## How to Use:
 1. Open the app
