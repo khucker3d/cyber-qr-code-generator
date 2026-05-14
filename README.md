@@ -30,7 +30,7 @@ A Python desktop GUI tool for creating branded QR code cards for portfolios, res
 * Website image assets
 * Important Notes
 
-## [How To]():
+## [How To](https://github.com/khucker3d/cyber-qr-code-generator/blob/main/How%20To.md):
 
 ### Security Notes:
 * QR codes hide the destination URL from the viewer until scanned.
