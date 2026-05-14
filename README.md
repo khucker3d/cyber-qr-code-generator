@@ -43,6 +43,7 @@ A Python desktop GUI tool for creating branded QR code cards for portfolios, res
 2. Install required packages:
    * Mac Terminal: `pip3 install "qrcode[pil]`
    * Windows PowerShell: `py -m pip install "qrcode[pil]`
+  *Note: I used IDLE to create and run the script*
 
 3. Run the script:
    * Mac Terminal: `python3 fancy_pants_qr_gui.py`
