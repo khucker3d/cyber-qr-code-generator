@@ -61,5 +61,4 @@ A Python desktop GUI tool for creating branded QR code cards for portfolios, res
 MIT License
 
 ### Security Notes:
-* This project is intended for learning, personal security practice, and portfolio demonstration.
-* For real credential storage, use a trusted password manager.
+This project is intended for learning, personal security practice, and portfolio demonstration.
