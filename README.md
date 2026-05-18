@@ -9,9 +9,7 @@ A Python desktop GUI tool for creating branded QR code cards for portfolios, res
 
 ## Features:
 * Generate QR code cards from custom URLs
-* Add custom labels
-* Add custom file names
-* Add custom subtext
+* Add custom labels, file names, subtext
 * Optional center logo support
 * Supports manual line breaks in labels and subtext
 * Exports QR cards as PNG files
@@ -20,17 +18,6 @@ A Python desktop GUI tool for creating branded QR code cards for portfolios, res
 * Mac and Windows friendly
 * QR-safe high contrast design
 * Clean card layout for resumes, websites, GitHub, and portfolio use
-
-### Use Cases:
-* Resume QR codes
-* Portfolio QR codes
-* GitHub profile links
-* Project page links
-* Contact cards
-* Career hub links
-* Printed handouts
-* Website image assets
-* Important Notes
 
 ## [How To](https://github.com/khucker3d/cyber-qr-code-generator/blob/main/How%20To.md):
 
@@ -62,5 +49,5 @@ A Python desktop GUI tool for creating branded QR code cards for portfolios, res
 ## License:
 MIT License
 
-### Security Notes:
-This project is intended for learning, personal security practice, and portfolio demonstration.
+## Security Notes
+- This project is intended for learning, personal security practice, and portfolio demonstration.
